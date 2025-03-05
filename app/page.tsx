@@ -22,7 +22,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Code className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">CodingQuest</span>
+            <span className="text-xl font-bold">CodinQuest</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-primary">
@@ -55,7 +55,7 @@ export default function Home() {
               Apprenez à coder en jouant
             </div>
             <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              Bienvenue sur <span className="text-primary">CodingQuest</span>
+              Bienvenue sur <span className="text-primary">CodinQuest</span>
             </h1>
             <p className="mt-6 max-w-3xl text-lg text-muted-foreground md:text-xl">
               La plateforme qui combine l'apprentissage structuré d'Udemy et les défis de code de Codewars pour une
@@ -78,7 +78,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <Code className="mx-auto h-16 w-16 text-primary" />
-                    <p className="mt-4 text-xl font-medium">Interface CodingQuest</p>
+                    <p className="mt-4 text-xl font-medium">Interface CodinQuest</p>
                     <p className="text-sm text-muted-foreground">Défis de code interactifs et cours structurés</p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fonctionnalités principales</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Découvrez ce qui rend CodingQuest unique et efficace pour l'apprentissage du code
+                Découvrez ce qui rend CodinQuest unique et efficace pour l'apprentissage du code
               </p>
             </div>
             <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -209,7 +209,7 @@ export default function Home() {
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Avantages pour tous</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                CodingQuest offre des bénéfices uniques pour les apprenants et les entreprises
+                CodinQuest offre des bénéfices uniques pour les apprenants et les entreprises
               </p>
             </div>
             <div className="mt-12 grid gap-8 lg:grid-cols-2">
@@ -243,7 +243,7 @@ export default function Home() {
           <div className="container text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Prêt à commencer votre aventure ?</h2>
             <p className="mt-4 text-lg opacity-90">
-              Rejoignez des milliers d'apprenants qui transforment leur carrière grâce à CodingQuest
+              Rejoignez des milliers d'apprenants qui transforment leur carrière grâce à CodinQuest
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button
@@ -269,10 +269,10 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center gap-2">
               <Code className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold">CodingQuest</span>
+              <span className="text-lg font-bold">CodinQuest</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} CodingQuest. Tous droits réservés.
+              © {new Date().getFullYear()} CodinQuest. Tous droits réservés.
             </p>
             <div className="flex gap-4">
               <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
