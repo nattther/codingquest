@@ -33,7 +33,7 @@ jobs:
         id: netlify_deploy
         run: |
           netlify deploy \
-            --dir dist \
+            --dir .next \
             --site a2bbc620-56ae-41c0-93dd-ac1d56091794  \
             --auth nfp_huLKHctuH1dH9y4UfMDXSGELU9EgVF9i65fc \
             --prod \
