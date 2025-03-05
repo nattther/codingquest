@@ -1,0 +1,44 @@
+name: Deploy website
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false 
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install Netlify
+        run: npm install netlify-cli@17.10.1 -g
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Debug - List files after build
+        run: ls -R
+
+      - name: Deploy to Netlify
+        id: netlify_deploy
+        run: |
+          netlify deploy \
+            --dir dist \
+            --site a2bbc620-56ae-41c0-93dd-ac1d56091794  \
+            --auth nfp_huLKHctuH1dH9y4UfMDXSGELU9EgVF9i65fc \
+            --prod \
+            --json \
+                > deploy_output.json
+          cat deploy_output.json
+
+      
