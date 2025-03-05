@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CodinQuest - Apprenez à coder en jouant",
+  title: "CodingQuest - Apprenez à coder en jouant",
   description:
     "Plateforme d'apprentissage de la programmation qui combine cours structurés et défis de code gamifiés pour tous les niveaux.",
     generator: 'v0.dev'

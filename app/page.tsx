@@ -21,20 +21,20 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Code className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">CodinQuest</span>
+            <Code className="h-6 w-6 text-custom-orange" />
+            <span className="text-xl font-bold">CodingQuest</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="#features" className="text-sm font-medium hover:text-primary">
+            <Link href="#features" className="text-sm font-medium hover:text-custom-orange">
               Fonctionnalités
             </Link>
-            <Link href="#languages" className="text-sm font-medium hover:text-primary">
+            <Link href="#languages" className="text-sm font-medium hover:text-custom-orange">
               Langages
             </Link>
-            <Link href="#levels" className="text-sm font-medium hover:text-primary">
+            <Link href="#levels" className="text-sm font-medium hover:text-custom-orange">
               Niveaux
             </Link>
-            <Link href="#benefits" className="text-sm font-medium hover:text-primary">
+            <Link href="#benefits" className="text-sm font-medium hover:text-custom-orange">
               Avantages
             </Link>
           </nav>
@@ -42,7 +42,7 @@ export default function Home() {
             <Button variant="outline" size="sm">
               Se connecter
             </Button>
-            <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button size="sm" className="bg-custom-orange hover:bg-custom-orange/90 text-white">
               S'inscrire
             </Button>
           </div>
@@ -51,35 +51,35 @@ export default function Home() {
       <main className="flex-1">
         <section className="py-20 md:py-28">
           <div className="container flex flex-col items-center text-center">
-            <div className="inline-block rounded-lg bg-primary/20 px-3 py-1 text-sm text-primary font-medium">
+            <div className="inline-block rounded-lg bg-custom-orange/20 px-3 py-1 text-sm text-custom-orange font-medium">
               Apprenez à coder en jouant
             </div>
             <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              Bienvenue sur <span className="text-primary">CodinQuest</span>
+              Bienvenue sur <span className="text-custom-orange">CodingQuest</span>
             </h1>
-            <p className="mt-6 max-w-3xl text-lg text-muted-foreground md:text-xl">
+            <p className="mt-6 max-w-3xl text-lg text-custom-gray md:text-xl">
               La plateforme qui combine l'apprentissage structuré d'Udemy et les défis de code de Codewars pour une
               expérience d'apprentissage immersive et ludique.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-primary-foreground">
+              <Button size="lg" className="gap-2 bg-custom-orange hover:bg-custom-orange/90 text-white">
                 Commencer gratuitement <ArrowRight className="h-4 w-4" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary/50 text-primary hover:bg-primary/10 hover:text-primary hover:border-primary"
+                className="border-custom-orange/50 text-custom-orange hover:bg-custom-orange/10 hover:text-custom-orange hover:border-custom-orange"
               >
                 Découvrir les défis
               </Button>
             </div>
-            <div className="mt-16 w-full max-w-5xl overflow-hidden rounded-xl border border-primary/20 bg-background shadow-xl">
-              <div className="relative aspect-video w-full bg-gradient-to-br from-primary/20 via-background to-primary/10">
+            <div className="mt-16 w-full max-w-5xl overflow-hidden rounded-xl border border-custom-orange/20 bg-custom-black shadow-xl">
+              <div className="relative aspect-video w-full bg-gradient-to-br from-custom-orange/20 via-custom-black to-custom-orange/10">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
-                    <Code className="mx-auto h-16 w-16 text-primary" />
-                    <p className="mt-4 text-xl font-medium">Interface CodinQuest</p>
-                    <p className="text-sm text-muted-foreground">Défis de code interactifs et cours structurés</p>
+                    <Code className="mx-auto h-16 w-16 text-custom-orange" />
+                    <p className="mt-4 text-xl font-medium">Interface CodingQuest</p>
+                    <p className="text-sm text-custom-gray">Défis de code interactifs et cours structurés</p>
                   </div>
                 </div>
               </div>
@@ -87,12 +87,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="features" className="py-16 bg-secondary">
+        <section id="features" className="py-16 bg-custom-black">
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fonctionnalités principales</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Découvrez ce qui rend CodinQuest unique et efficace pour l'apprentissage du code
+              <p className="mt-4 text-lg text-custom-gray">
+                Découvrez ce qui rend CodingQuest unique et efficace pour l'apprentissage du code
               </p>
             </div>
             <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Plus de 100 langages et technologies</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-custom-gray">
                 Maîtrisez les langages de programmation les plus demandés sur le marché
               </p>
             </div>
@@ -162,7 +162,7 @@ export default function Home() {
               <div className="mt-8 text-center">
                 <Button
                   variant="outline"
-                  className="border-primary/50 text-primary hover:bg-primary/10 hover:text-primary hover:border-primary"
+                  className="border-custom-orange/50 text-custom-orange hover:bg-custom-orange/10 hover:text-custom-orange hover:border-custom-orange"
                 >
                   Voir tous les langages
                 </Button>
@@ -171,11 +171,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="levels" className="py-16 bg-secondary">
+        <section id="levels" className="py-16 bg-custom-black">
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Niveaux adaptés à tous</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-custom-gray">
                 Progressez à votre rythme avec des défis adaptés à votre niveau de compétence
               </p>
             </div>
@@ -198,7 +198,7 @@ export default function Home() {
               <LevelCard
                 level="Expert"
                 description="Résolvez des problèmes de niveau professionnel qui simulent des cas réels d'entreprise"
-                color="bg-primary/20 text-primary border border-primary/50"
+                color="bg-custom-orange/20 text-custom-orange border border-custom-orange/50"
               />
             </div>
           </div>
@@ -208,13 +208,13 @@ export default function Home() {
           <div className="container">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Avantages pour tous</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
-                CodinQuest offre des bénéfices uniques pour les apprenants et les entreprises
+              <p className="mt-4 text-lg text-custom-gray">
+                CodingQuest offre des bénéfices uniques pour les apprenants et les entreprises
               </p>
             </div>
             <div className="mt-12 grid gap-8 lg:grid-cols-2">
-              <div className="rounded-xl border border-primary/20 bg-card p-8 shadow-sm">
-                <Globe className="h-12 w-12 text-primary" />
+              <div className="rounded-xl border border-custom-orange/20 bg-custom-black p-8 shadow-sm">
+                <Globe className="h-12 w-12 text-custom-orange" />
                 <h3 className="mt-4 text-2xl font-bold">Pour les entreprises</h3>
                 <ul className="mt-6 space-y-4">
                   <BenefitItem text="Certifications fiables pour évaluer les compétences des candidats" />
@@ -224,8 +224,8 @@ export default function Home() {
                   <BenefitItem text="Analyse détaillée des compétences et des performances" />
                 </ul>
               </div>
-              <div className="rounded-xl border border-primary/20 bg-card p-8 shadow-sm">
-                <Users className="h-12 w-12 text-primary" />
+              <div className="rounded-xl border border-custom-orange/20 bg-custom-black p-8 shadow-sm">
+                <Users className="h-12 w-12 text-custom-orange" />
                 <h3 className="mt-4 text-2xl font-bold">Pour les apprenants</h3>
                 <ul className="mt-6 space-y-4">
                   <BenefitItem text="Apprentissage ludique qui maintient votre motivation" />
@@ -239,24 +239,24 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-16 bg-primary text-primary-foreground">
+        <section className="py-16 bg-custom-orange text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Prêt à commencer votre aventure ?</h2>
             <p className="mt-4 text-lg opacity-90">
-              Rejoignez des milliers d'apprenants qui transforment leur carrière grâce à CodinQuest
+              Rejoignez des milliers d'apprenants qui transforment leur carrière grâce à CodingQuest
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button
                 size="lg"
                 variant="secondary"
-                className="gap-2 bg-background text-foreground hover:bg-background/90"
+                className="gap-2 bg-custom-black text-white hover:bg-custom-black/90"
               >
                 S'inscrire gratuitement <ArrowRight className="h-4 w-4" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="bg-transparent border-white/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground hover:border-white/50"
+                className="bg-transparent border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white/50"
               >
                 En savoir plus
               </Button>
@@ -264,24 +264,22 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="border-t border-primary/20 py-8">
+      <footer className="border-t border-custom-orange/20 py-8">
         <div className="container">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center gap-2">
-              <Code className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold">CodinQuest</span>
+              <Code className="h-5 w-5 text-custom-orange" />
+              <span className="text-lg font-bold">CodingQuest</span>
             </div>
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} CodinQuest. Tous droits réservés.
-            </p>
+            <p className="text-sm text-custom-gray">© {new Date().getFullYear()} CodingQuest. Tous droits réservés.</p>
             <div className="flex gap-4">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="#" className="text-sm text-custom-gray hover:text-custom-orange">
                 Conditions d'utilisation
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="#" className="text-sm text-custom-gray hover:text-custom-orange">
                 Politique de confidentialité
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="#" className="text-sm text-custom-gray hover:text-custom-orange">
                 Contact
               </Link>
             </div>
@@ -294,17 +292,17 @@ export default function Home() {
 
 function FeatureCard({ icon: Icon, title, description }: { icon: LucideIcon; title: string; description: string }) {
   return (
-    <div className="rounded-xl border border-primary/20 bg-card p-6 shadow-sm hover:border-primary/40 transition-colors">
-      <Icon className="h-10 w-10 text-primary" />
+    <div className="rounded-xl border border-custom-orange/20 bg-[#3a3a3a] p-6 shadow-sm hover:border-custom-orange/40 transition-colors">
+      <Icon className="h-10 w-10 text-custom-orange" />
       <h3 className="mt-4 text-xl font-bold">{title}</h3>
-      <p className="mt-2 text-muted-foreground">{description}</p>
+      <p className="mt-2 text-custom-gray">{description}</p>
     </div>
   )
 }
 
 function LanguageCard({ name }: { name: string }) {
   return (
-    <div className="flex items-center justify-center rounded-lg border border-primary/20 bg-card p-4 shadow-sm hover:border-primary/40 transition-colors">
+    <div className="flex items-center justify-center rounded-lg border border-custom-orange/20 bg-[#3a3a3a] p-4 shadow-sm hover:border-custom-orange/40 transition-colors">
       <span className="font-medium">{name}</span>
     </div>
   )
@@ -312,9 +310,9 @@ function LanguageCard({ name }: { name: string }) {
 
 function LevelCard({ level, description, color }: { level: string; description: string; color: string }) {
   return (
-    <div className="rounded-xl border border-primary/20 bg-card p-6 shadow-sm hover:border-primary/40 transition-colors">
+    <div className="rounded-xl border border-custom-orange/20 bg-[#3a3a3a] p-6 shadow-sm hover:border-custom-orange/40 transition-colors">
       <div className={`inline-flex rounded-full px-3 py-1 text-sm font-medium ${color}`}>{level}</div>
-      <p className="mt-4 text-muted-foreground">{description}</p>
+      <p className="mt-4 text-custom-gray">{description}</p>
     </div>
   )
 }
@@ -322,8 +320,8 @@ function LevelCard({ level, description, color }: { level: string; description: 
 function BenefitItem({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3">
-      <Star className="mt-1 h-5 w-5 shrink-0 text-primary" />
-      <span>{text}</span>
+      <Star className="mt-1 h-5 w-5 shrink-0 text-custom-orange" />
+      <span className="text-custom-gray">{text}</span>
     </li>
   )
 }

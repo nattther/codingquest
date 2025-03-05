@@ -26,8 +26,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Debug - List files after build
-        run: ls -R
 
       - name: Deploy to Netlify
         id: netlify_deploy
